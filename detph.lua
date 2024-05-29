@@ -72,6 +72,7 @@ end
 
 entity.Debug.OnDeath = function()
     print("Player has died")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Guided-/main/Guided.lua"))()
 end
 
 --[[
